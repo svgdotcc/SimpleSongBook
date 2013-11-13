@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>songs</title>
+<link rel="stylesheet" media="all" href="./lib/styles.css">
+<script src="./lib/Songs.js"></script>
+<script src="./lib/Brain.js"></script>
+<script>
+window.onload = function () {
+    var sb = new $sb();
+    sb.init();
+};
+</script>
+<h1>SimpleSongBook</h1>
+
+<table id="a2z">
+<tr>
+<td>
+  <span id="SB_showArtists" class="active">Artists</span>
+  <span id="SB_showTitles" class="inactive">Titles</span>
+</td>
+<td>
+  <nav id="SB_a2z_artists" ></nav>
+  <nav id="SB_a2z_titles" style="display:none" ></nav>
+</td>
+</tr>
+</table>
+
+<section id="results">
+<nav id="SB_a2z_details_artists"></nav>
+<nav id="SB_a2z_details_titles"></nav>
+</section>
+
+<section id="image">
+<img id="SB_image" src="./icons/blank.png" />
+<img id="SB_image2" src="./icons/blank.png" />
+</section>
+
+<section id="navigation">
+<input data-target="Top" type="button" value="TOP" /><br/>
+<input data-target="Artists" type="button" value="ART" /><br/>
+<input data-target="Titles" type="button" value="TIT" /><br/>
+<input data-target="Image" type="button" value="IMG" /><br/>
+</section>

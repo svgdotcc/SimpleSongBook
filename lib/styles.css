@@ -1,0 +1,63 @@
+/*****
+ * custom styles for songbook
+ ****/
+
+#a2z {
+    width: 900px;
+    margin-bottom: 2em;
+}
+#a2z td {
+    vertical-align: top;
+}
+#a2z input[type="button"] {
+    font-size: 2.5em;
+}
+#a2z nav {
+    display: inline;
+}
+#a2z .active {
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-bottom: 0.3em;
+    border: 2px outset black;
+    padding: 3px;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+#a2z .inactive {
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-bottom: 0.3em;
+    border: 2px inset black;
+    padding: 3px;
+    cursor: pointer;
+    background-color: #EEE;
+    opacity: 0.6;
+}
+
+#results {
+    width: 900px;
+    padding: 5px;
+}
+#results input[type="button"] {
+    width: 220px;
+    box-shadow: 1px 3px 10px #ccc;
+    font-size: 1.2em;
+    padding: 1em;
+}
+#results nav {
+    margin-top: 20px;
+}
+
+#navigation {
+    box-shadow: 1px 3px 10px #ccc;
+    padding: 3px;
+    border: 1px solid #eee;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+#navigation input {
+    font-family: monospace;
+    margin-bottom: 0.3em;
+}

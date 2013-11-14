@@ -1,0 +1,4 @@
+# vim swap files
+*.swp
+# ignore changes in Songs.js, gets updated on new song
+lib/Songs.js
